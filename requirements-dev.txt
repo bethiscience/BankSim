@@ -1,0 +1,5 @@
+-r requirements.txt
+pytest>=8.0
+# Optional, off by default (heavy; not needed for the deployed demo):
+# transformers torch                      -> BANKSIM_USE_HF=1
+# presidio-analyzer presidio-anonymizer   -> BANKSIM_USE_PRESIDIO=1
